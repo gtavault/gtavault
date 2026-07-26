@@ -38,10 +38,6 @@ export default function RootLayout({
 <div className="fixed inset-0 -z-10 bg-black" />
 
 <div className="fixed inset-0 -z-10 opacity-60 bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.35),transparent_50%),radial-gradient(circle_at_bottom_right,rgba(236,72,153,0.35),transparent_50%),radial-gradient(circle_at_center,rgba(147,51,234,0.2),transparent_60%)]" />
- <Script
-  src="https://www.googletagmanager.com/gtag/js?id=G-EYZ12EMF83"
-  strategy="afterInteractive"
-/>
 
 <Script
   src="https://www.googletagmanager.com/gtag/js?id=G-EZY21EMF83"
