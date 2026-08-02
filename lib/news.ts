@@ -1,7 +1,8 @@
 export const newsPosts = [
-  {
-    slug: "gta-6-pricing",
-    title: "GTA VI Pricing Officially Revealed",
+ {
+  slug: "gta-6-pricing",
+  image: "/news/gta-6-pricing.jpg",
+  title: "GTA VI Pricing Officially Revealed",
     date: "25 June 2026",
     updated: "26 June 2026",
     excerpt:
@@ -32,8 +33,9 @@ KEY TAKEAWAYS
 
 `
 },
-    {
+   {
   slug: "everything-we-know",
+  image: "/news/everything-we-know.jpg",
   title: "Everything We Know About GTA VI So Far",
   date: "23 June 2026",
 updated: "23 June 2026",
@@ -61,6 +63,7 @@ Rockstar has already released official trailers and screenshots showcasing impre
 },
  {
   slug: "release-date-confirmed",
+  image: "/news/release-date-confirmed.jpg",
   title: "GTA VI Release Date Confirmed",
   date: "19 November 2026",
 updated: "25 June 2026",
@@ -84,10 +87,11 @@ With the release date now confirmed, attention will shift towards future gamepla
 `
 },
 
-  {
-    slug: "trailer-2-breaks-records",
-    title: "Trailer 2 Breaks Records",
-   date: "May 2025",
+ {
+  slug: "trailer-2-breaks-records",
+  image: "/news/trailer-2-breaks-records.jpg",
+  title: "Trailer 2 Breaks Records",
+  date: "May 2025",
 updated: "25 June 2026",
 excerpt:
   "The second GTA VI trailer became one of the biggest gaming trailer launches ever, generating millions of views and reigniting excitement across the gaming community.",
@@ -109,8 +113,9 @@ With Trailer 2 continuing to generate discussion across the community, attention
   },
 
   {
-    slug: "vice-city-returns",
-    title: "Vice City Returns",
+  slug: "vice-city-returns",
+  image: "/news/vice-city-returns.jpg",
+  title: "Vice City Returns",
     date: "Official Information",
 updated: "25 June 2026",
 excerpt:

@@ -19,8 +19,14 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "GTA Vault HQ",
   description: "Latest GTA 6 news, guides, vehicles, story updates and more.",
-};
 
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
+};
+ 
 export default function RootLayout({
   
   children,
