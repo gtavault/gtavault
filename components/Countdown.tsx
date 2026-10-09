@@ -1,9 +1,10 @@
+
 "use client";
 
 import { useEffect, useState } from "react";
 
 export default function Countdown() {
-  const [timeLeft, setTimeLeft] = useState("Loading...");
+  const [timeLeft, setTimeLeft] = useState("");
 
   useEffect(() => {
     const target = new Date(2026, 10, 19, 0, 0, 0).getTime();
@@ -21,9 +22,7 @@ export default function Countdown() {
       const minutes = Math.floor((distance % 3600000) / 60000);
       const seconds = Math.floor((distance % 60000) / 1000);
 
-     setTimeLeft(
-  `${days}D•${hours}H•${minutes}M•${seconds}S`
-);
+      setTimeLeft(`${days}D•${hours}H•${minutes}M•${seconds}S`);
     };
 
     update();

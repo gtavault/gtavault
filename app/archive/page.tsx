@@ -1,33 +1,45 @@
 import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
+
+export const metadata = {
+  title: "Archive | GTA Vault",
+  description: "Explore GTA Vault's news, guides and features.",
+};
 
 export default function ArchivePage() {
   return (
-    <main className="mx-auto max-w-7xl px-6 py-16">
-      <div className="mb-8">
-        <Link
-          href="/"
-          className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-5 py-3 text-sm font-semibold text-zinc-300 transition hover:border-cyan-400/30 hover:bg-cyan-400/10 hover:text-white"
-        >
-          <ArrowLeft className="h-4 w-4" />
-          Back to Home
-        </Link>
-      </div>
+    <main className="mx-auto min-h-screen max-w-6xl px-5 py-12 text-white sm:px-8">
+      <Link
+        href="/"
+        className="text-sm font-medium text-cyan-300 transition hover:text-cyan-200"
+      >
+        ← Back to Home
+      </Link>
 
-      <div className="space-y-4">
-        <p className="text-sm font-semibold uppercase tracking-[0.35em] text-cyan-300">
+      <header className="mb-10 mt-8">
+        <p className="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-cyan-300">
           GTA Vault
         </p>
-
-        <h1 className="text-5xl font-black">
+        <h1 className="text-4xl font-black tracking-tight sm:text-6xl">
           Archive
         </h1>
-
-        <p className="max-w-3xl text-lg text-zinc-400">
-          Browse every GTA Vault Weekly Report, including Vault Scores,
-          strategies, discounts and money-making guides.
+        <p className="mt-4 max-w-2xl leading-7 text-white/65">
+          Explore GTA Vault's latest news, guides and features.
         </p>
-      </div>
+      </header>
+
+      <section className="rounded-2xl border border-white/10 bg-white/[0.04] p-8 sm:p-12">
+        <h2 className="text-2xl font-bold">More coming soon</h2>
+        <p className="mt-3 max-w-xl leading-7 text-white/60">
+          We're working on bringing more content to the GTA Vault archive.
+          Check back soon for updates.
+        </p>
+        <Link
+          href="/news"
+          className="mt-6 inline-block font-semibold text-cyan-300 transition hover:text-cyan-200"
+        >
+          Explore latest news →
+        </Link>
+      </section>
     </main>
   );
 }

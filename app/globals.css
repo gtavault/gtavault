@@ -43,3 +43,88 @@ body {
     transform: translateY(0px);
   }
 }
+
+/* =========================================================
+   GTA VAULT — CINEMATIC MOTION SYSTEM
+   ========================================================= */
+
+@keyframes vaultFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes vaultReveal {
+  from {
+    opacity: 0;
+    transform: scale(1.025);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes vaultPulse {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes vaultDrift {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  50% {
+    transform: translate3d(0, -8px, 0);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .vault-fade-in {
+    animation: vaultFadeIn 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .vault-reveal {
+    animation: vaultReveal 1.2s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .vault-pulse {
+    animation: vaultPulse 3s ease-in-out infinite;
+  }
+
+  .vault-drift {
+    animation: vaultDrift 6s ease-in-out infinite;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: rgba(236, 72, 153, 0.35);
+  color: white;
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}

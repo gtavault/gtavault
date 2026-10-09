@@ -13,9 +13,9 @@ export default function Header() {
  <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
  <Link href="/" className="flex items-center">
   <img
-    src="/logo.png"
+    src="/favicon.ico"
     alt="GTA Vault"
-    className="h-11 w-auto md:h-10"
+    className="h-7 w-7 object-contain"
   />
 </Link>
 <p className="hidden lg:block text-sm text-zinc-400 uppercase tracking-[0.2em]">
@@ -79,7 +79,7 @@ export default function Header() {
 </Link>
 
 <Link
-  href="/report"
+  href="/weekly"
   onClick={() => setMenuOpen(false)}
   className="rounded-xl border border-cyan-500/30 bg-cyan-500/10 px-4 py-3 transition hover:border-cyan-400 hover:bg-cyan-500/20"
 >
@@ -91,7 +91,15 @@ export default function Header() {
   </span>
 </Link>
 
-   <Link
+<Link
+  href="/games"
+  onClick={() => setMenuOpen(false)}
+  className="rounded-xl px-4 py-3 text-zinc-300 transition hover:bg-zinc-800 hover:text-white"
+>
+  Games
+</Link>
+
+<Link
   href="/news"
   onClick={() => setMenuOpen(false)}
   className="rounded-xl px-4 py-3 text-zinc-300 transition hover:bg-zinc-800 hover:text-white"
