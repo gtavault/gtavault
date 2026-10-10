@@ -1,5 +1,5 @@
 "use client";
-
+import { locationAnswers } from "@/lib/location-answers";
 import { useEffect, useRef, useState } from "react";
 import type { PointerEvent } from "react";
 
@@ -43,32 +43,19 @@ function gtaToPercent(x: number, y: number) {
   };
 }
 
+
 function loadSavedLocations(): Location[] {
-  try {
-    const saved = localStorage.getItem(
-      "gta-location-answers"
-    );
-
-    if (!saved) return [];
-
-    const parsed: SavedLocation[] = JSON.parse(saved);
-
-    return parsed.map((location) => ({
-      id: location.id,
-      image: `/games/location${location.id}.jpg`,
-      gta: {
-        x: location.x,
-        y: location.y,
-      },
-      answer: gtaToPercent(
-        location.x,
-        location.y
-      ),
-    }));
-  } catch {
-    return [];
-  }
+  return locationAnswers.map((location) => ({
+    id: location.id,
+    image: `/games/location${location.id}.jpg`,
+    gta: {
+      x: location.x,
+      y: location.y,
+    },
+    answer: gtaToPercent(location.x, location.y),
+  }));
 }
+
 
 function shuffleLocations(locations: Location[]) {
   return [...locations].sort(
