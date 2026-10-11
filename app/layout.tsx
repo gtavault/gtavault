@@ -17,6 +17,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://gtavaulthq.com"),
 
+  other: {
+
+    "google-adsense-account": "ca-pub-1928179187194479",
+
+  },
+
   title: {
     default: "GTA Vault | GTA 6 News, Guides, Vehicles & More",
     template: "%s | GTA Vault",
