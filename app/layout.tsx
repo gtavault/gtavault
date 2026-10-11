@@ -110,6 +110,7 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
 
+  
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
@@ -120,7 +121,16 @@ export default function RootLayout({
           `}
         </Script>
 
+        <Script
+          id="google-adsense"
+          async
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1928179187194479"
+        />
+
         <Header />
+
 
         {children}
 

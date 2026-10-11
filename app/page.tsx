@@ -1361,16 +1361,15 @@ export default function Home() {
 
 </div>
 
-  {/* Coming soon — full-width scroller */}
-  <div className="pt-7">
-    <div className="mb-5 flex items-end justify-between px-5">
-      <div>
-        <h3 className="text-xl font-black">Coming soon</h3>
-        <p className="mt-1 text-[9px] text-white/40">
-          More games to explore
-        </p>
-      </div>
-
+ {/* Play & Explore — full-width scroller */}
+<div className="pt-7">
+  <div className="mb-5 flex items-end justify-between px-5">
+    <div>
+      <h3 className="text-xl font-black">Play & Explore</h3>
+      <p className="mt-1 text-[9px] text-white/40">
+        Test your knowledge. Explore Los Santos.
+      </p>
+    </div>
       <span className="text-[7px] font-black uppercase tracking-[0.25em] text-pink-400">
         Swipe →
       </span>
