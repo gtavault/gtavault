@@ -93,9 +93,12 @@ export default async function ArticlePage({
     .map((paragraph) => paragraph.trim())
     .filter(Boolean);
 
-  const relatedArticles = news
-    .filter((article) => article.slug !== post.slug)
-    .slice(0, 4);
+
+const relatedArticles = news
+  .filter((article) => article.slug !== post.slug)
+  .sort(() => Math.random() - 0.5)
+  .slice(0, 4);
+
 
   const introParagraph =
     paragraphs.find((paragraph) => !isHeading(paragraph)) ?? "";

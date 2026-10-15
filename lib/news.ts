@@ -16,6 +16,86 @@ export interface NewsArticle {
 }
 
 export const news: NewsArticle[] = [
+
+
+{
+  slug: "gta-6-launch-trailer",
+
+  title: "GTA VI Launch Trailer Released by Rockstar Games",
+
+  date: "15 October 2026",
+
+  updated: "15 October 2026",
+
+  excerpt:
+    "Rockstar Games has released the GTA VI launch trailer, offering another look at Jason, Lucia and Leonida ahead of the game's scheduled November release.",
+
+  content: `ROCKSTAR RELEASES THE GTA VI LAUNCH TRAILER
+
+Rockstar Games has released the launch trailer for Grand Theft Auto VI on 15 October 2026, giving fans another official look at Jason Duval, Lucia Caminos and the world of Leonida.
+
+The new trailer arrives ahead of the game's currently scheduled release on 19 November 2026 for PlayStation 5 and Xbox Series X|S.
+
+Rather than revealing the entire story, the trailer offers another glimpse of the characters, locations and atmosphere that will shape Rockstar's next Grand Theft Auto game.
+
+JASON AND LUCIA RETURN
+
+Jason and Lucia remain at the centre of GTA VI's story.
+
+Rockstar's official description explains that an easy score goes wrong, drawing the pair into a criminal conspiracy stretching across Leonida. They must rely on each other if they want to survive the situation.
+
+The trailer provides another look at their partnership and the dangerous world surrounding them, while leaving many details of the full story unrevealed.
+
+A NEW TRACK FROM JUSTICE
+
+The launch trailer features Flower in a Hurricane, a new single from French electronic duo Justice, who composed the original score for GTA VI.
+
+The track features Tame Impala, SZA and King Gizzard & The Lizard Wizard.
+
+Rockstar has also confirmed that the single is part of Grand Theft Auto VI: The Album, the game's official soundtrack collection.
+
+THE RELEASE DATE
+
+GTA VI is currently scheduled to launch worldwide on 19 November 2026.
+
+The confirmed platforms are PlayStation 5 and Xbox Series X|S.
+
+Rockstar has not announced an official PC release date.
+
+The launch trailer is another major step in the game's promotional campaign as the scheduled release approaches.
+
+WHAT HAPPENS NEXT?
+
+The new trailer adds to the official material released so far, including Trailer 1, Trailer 2 and the Extended Look published in August 2026.
+
+Although the launch trailer offers more footage, Rockstar has not revealed every mission, gameplay system or story detail.
+
+Players should distinguish confirmed announcements from speculation circulating online.
+
+GTA Vault will continue covering official GTA VI announcements, trailer details and developments as they emerge.
+
+OFFICIAL SOURCE
+
+Read Rockstar Games' announcement and watch the trailer here:
+https://www.rockstargames.com/newswire/article/517572321a549a/watch-the-grand-theft-auto-vi-launch-trailer
+
+GTA Vault is an independent fan website and is not affiliated with Rockstar Games or Take-Two Interactive.`,
+
+  image: "/news/gta-6-launch-trailer.jpg",
+
+  youtubeId: "rz1B4B2yBZY",
+
+  category: "Trailer",
+
+  readingTime: "3",
+
+  sections: 5,
+
+  sources: 1,
+
+  featured: true,
+},
+
   {
     slug: "everything-we-know",
 
@@ -1140,7 +1220,7 @@ More information about Leonida, its characters, vehicles and gameplay could stil
     sections: 10,
 
     sources: 4,
-    
+
   },
     {
     slug: "gta-6-radio-stations-music-revealed",
