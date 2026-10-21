@@ -77,21 +77,40 @@ export const metadata: Metadata = {
     apple: "/favicon.ico",
   },
 
+
   openGraph: {
     type: "website",
     locale: "en_GB",
+    url: "https://gtavaulthq.com/",
     siteName: "GTA Vault",
-    title: "GTA Vault | GTA 6 News, Guides, Vehicles & More",
+    title: "GTA Vault | Your GTA VI Hub",
     description:
-      "GTA Vault is an independent GTA 6 fan site covering news, guides, vehicles, characters, story information, games and more.",
+      "GTA VI news, guides, vehicles, interactive games and weekly GTA Online updates — all in one place.",
+    images: [
+      {
+        url: "/news/gta-6-launch-trailer.jpg",
+        width: 1200,
+        height: 630,
+        alt: "GTA Vault — GTA VI news and gaming hub",
+      },
+    ],
   },
 
+
+ 
   twitter: {
     card: "summary_large_image",
-    title: "GTA Vault | GTA 6 News, Guides, Vehicles & More",
+    title: "GTA Vault | Your GTA VI Hub",
     description:
-      "Independent GTA 6 fan site covering news, guides, vehicles, characters, story information, games and more.",
+      "GTA VI news, guides, vehicles, interactive games and weekly GTA Online updates.",
+    images: [
+      {
+        url: "/news/gta-6-launch-trailer.jpg",
+        alt: "GTA Vault — GTA VI news and gaming hub",
+      },
+    ],
   },
+
 };
 
 export default function RootLayout({
