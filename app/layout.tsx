@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://gtavaulthq.com"),
+  metadataBase: new URL("https://www.gtavaulthq.com"),
 
   other: {
 
@@ -81,16 +81,16 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_GB",
-    url: "https://gtavaulthq.com/",
+    url: "https://www.gtavaulthq.com/",
     siteName: "GTA Vault",
     title: "GTA Vault | Your GTA VI Hub",
     description:
       "GTA VI news, guides, vehicles, interactive games and weekly GTA Online updates — all in one place.",
     images: [
       {
-        url: "/news/gta-6-launch-trailer.jpg",
-        width: 1200,
-        height: 630,
+       url: "/news/gta-6-social.jpg",
+width: 1200,
+height: 630,
         alt: "GTA Vault — GTA VI news and gaming hub",
       },
     ],
@@ -104,11 +104,11 @@ export const metadata: Metadata = {
     description:
       "GTA VI news, guides, vehicles, interactive games and weekly GTA Online updates.",
     images: [
-      {
-        url: "/news/gta-6-launch-trailer.jpg",
-        alt: "GTA Vault — GTA VI news and gaming hub",
-      },
-    ],
+  {
+    url: "/news/gta-6-social.jpg",
+    alt: "GTA Vault — GTA VI news and gaming hub",
+  },
+],
   },
 
 };
