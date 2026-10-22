@@ -27,10 +27,15 @@ export const metadata: Metadata = {
     description:
       "Discover this week's GTA Online bonuses, discounts, vehicles and challenges.",
     images: [
-      {
-        url: "/images/gta-online-halloween-weekly.jpg",
-        alt: "GTA Online Halloween weekly update — GTA Vault",
-      },
+      "/images/gta-online-halloween-weekly.jpg",
     ],
   },
 };
+
+export default function WeeklyLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return <>{children}</>;
+}
