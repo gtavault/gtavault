@@ -34,13 +34,13 @@ export async function generateMetadata({
       type: "article",
       title: post.title,
       description: post.excerpt,
-      url: `https://gtavaulthq.com/news/${post.slug}`,
+     url: `https://www.gtavaulthq.com/news/${post.slug}`,
       images: [
-        {
-          url: post.image,
-          alt: post.title,
-        },
-      ],
+  {
+    url: `https://www.gtavaulthq.com${post.image}`,
+    alt: post.title,
+  },
+],
       publishedTime: post.date,
       modifiedTime: post.updated,
     },
@@ -48,7 +48,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: post.title,
       description: post.excerpt,
-      images: [post.image],
+      images: [`https://www.gtavaulthq.com${post.image}`],
     },
   };
 }
