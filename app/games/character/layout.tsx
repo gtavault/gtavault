@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: "GTA Vault",
     images: [
       {
-        url: "https://www.gtavaulthq.com/character.jpg",
+        url: "https://www.gtavaulthq.com/games/character.jpg",
         alt: "GTA Vault Daily Character",
       },
     ],
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: "Who Am I? — Daily GTA Character | GTA Vault",
     description:
       "Five attempts. Every guess reveals more. Can you identify today's mystery GTA character?",
-    images: ["https://www.gtavaulthq.com/character.jpg"],
+    images: ["https://www.gtavaulthq.com/games/character.jpg"],
   },
 };
 export default function CharacterLayout({
