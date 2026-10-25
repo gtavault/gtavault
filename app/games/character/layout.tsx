@@ -7,12 +7,25 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/games/character",
   },
+  openGraph: {
+    title: "Who Am I? — Daily GTA Character | GTA Vault",
+    description:
+      "Five attempts. Every guess reveals more. Can you identify today's mystery GTA character?",
+    url: "https://www.gtavaulthq.com/games/character",
+    siteName: "GTA Vault",
+    images: [
+      {
+        url: "https://www.gtavaulthq.com/character.jpg",
+        alt: "GTA Vault Daily Character",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Who Am I? — Daily GTA Character | GTA Vault",
+    description:
+      "Five attempts. Every guess reveals more. Can you identify today's mystery GTA character?",
+    images: ["https://www.gtavaulthq.com/character.jpg"],
+  },
 };
-
-export default function CharacterLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return children;
-}
