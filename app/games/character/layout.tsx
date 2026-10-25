@@ -29,3 +29,10 @@ export const metadata: Metadata = {
     images: ["https://www.gtavaulthq.com/character.jpg"],
   },
 };
+export default function CharacterLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return children;
+}
