@@ -18,6 +18,184 @@ export interface NewsArticle {
 export const news: NewsArticle[] = [
 
 
+  {
+    slug: "gta-6-new-launch-gallery-screenshots",
+    title: "Rockstar Releases 39 New GTA VI Screenshots in The Launch Gallery",
+    date: "5 November 2026",
+    updated: "5 November 2026",
+    excerpt:
+      "Rockstar Games has released 39 new GTA VI screenshots in a dedicated Launch Gallery, offering another look at Jason, Lucia, Vice City and the wider world of Leonida just two weeks before release.",
+    image: "/news/gta-6-launch-gallery.jpg",
+    category: "News",
+    readingTime: "4",
+    sections: 7,
+    sources: 3,
+   content: `
+ROCKSTAR UNVEILS THE LAUNCH GALLERY
+
+With just two weeks remaining until Grand Theft Auto VI launches, Rockstar Games has released a substantial new collection of official screenshots.
+
+Published on 5 November 2026, The Launch Gallery brings together 39 new images showcasing Vice City and locations beyond the city. Rockstar introduced the collection through its Newswire, describing it as a new look at the world players will soon be able to explore.
+
+The gallery is available through the official GTA VI website.
+
+A CLOSER LOOK AT JASON AND LUCIA
+
+Several screenshots feature the game's two protagonists, Jason Duval and Lucia Caminos.
+
+The images show the pair together in a variety of situations, including sitting in a convertible, spending time in a nightclub and carrying out an armed bank robbery.
+
+Other screenshots focus on each character individually, offering additional looks at their clothing, weapons and surroundings.
+
+These images provide more official promotional material featuring both protagonists, although Rockstar has not explained where the individual scenes fit into the game's story.
+
+VICE CITY AND THE WORLD BEYOND
+
+The new collection also places considerable emphasis on the environments of Leonida.
+
+Vice City features prominently, with screenshots showing its skyline, nightlife, roads, businesses and coastal surroundings.
+
+Beyond the city, the collection includes glimpses of the Grassrivers wetlands, including an atmospheric nighttime scene featuring an airboat. There is also an underwater image from the Leonida Keys and another look at Port Gellhorn.
+
+Together, these images provide another opportunity to examine the different environments Rockstar has created for GTA VI.
+
+A VARIETY OF CHARACTERS AND ACTIVITIES
+
+Not every screenshot focuses on the main protagonists.
+
+The gallery features a range of Leonida residents, nightlife scenes, vehicles and everyday environments. Images include a busy nightclub, a car meet, a barbershop and a gym.
+
+Other scenes show police activity, vehicles on the road and characters interacting throughout the world.
+
+The variety gives players another look at the atmosphere and visual detail Rockstar is aiming to create across Leonida.
+
+39 NEW SCREENSHOTS IN TOTAL
+
+The Launch Gallery contains 39 new screenshots, adding to the collection of official GTA VI imagery already released during the game's marketing campaign.
+
+Rather than revealing a new trailer or explaining additional gameplay mechanics, this release concentrates on visual material.
+
+It is worth remembering that individual screenshots do not necessarily confirm specific missions, activities or gameplay systems. They show scenes from the game, but Rockstar has not provided detailed explanations for every image.
+
+EXPLORE ALL 39 SCREENSHOTS ON GTA VAULT
+
+You can also browse all 39 official Launch Gallery screenshots in the GTA Vault Media Wall. We have brought the entire collection together in one place, making it easier to explore the new images featuring Jason, Lucia and locations across Leonida.
+
+Visit the <a href="/media">GTA Vault Media Wall</a> to view the full collection.
+
+TWO WEEKS UNTIL RELEASE
+
+The timing of the gallery makes it particularly significant for GTA VI fans.
+
+Rockstar's announcement confirms that the game is now officially two weeks away, with its scheduled release date remaining 19 November 2026.
+
+Pre-loading is due to begin on 10 November, giving players the opportunity to download the game ahead of launch.
+
+With the release approaching, The Launch Gallery provides one of the latest official looks at GTA VI before players finally get to experience Leonida themselves.
+
+VIEW THE OFFICIAL GALLERY
+
+All 39 screenshots can also be viewed through Rockstar Games' official Launch Gallery:
+
+https://www.rockstargames.com/VI/launch-gallery
+
+Grand Theft Auto VI launches on PlayStation 5 and Xbox Series X|S on 19 November 2026.
+`,
+  },
+
+  
+{
+  slug: "gta-6-south-park-gameplay",
+
+  title: "South Park Features New GTA VI Gameplay Footage",
+
+  date: "29 October 2026",
+
+  updated: "4 November 2026",
+
+  excerpt:
+    "South Park has unexpectedly featured genuine Grand Theft Auto VI gameplay in its latest episode, showing Jason on a Vice City beach in one of the game's strangest reveals yet.",
+
+  content: `SOUTH PARK FEATURES GTA VI GAMEPLAY
+
+Grand Theft Auto VI has received an unexpected gameplay reveal, but not through a traditional Rockstar trailer or announcement.
+
+The latest episode of South Park, titled "Guinea Pig on a Stick", featured a short sequence of genuine GTA VI footage, giving viewers another glimpse of Jason and the world of Leonida.
+
+The episode aired on 28 October 2026, with the footage quickly attracting attention from the GTA community.
+
+WHAT DOES THE FOOTAGE SHOW?
+
+The sequence features Jason on a crowded Vice City beach.
+
+A dog can be seen leaving waste on the sand before its owner picks it up using a bag. Jason then becomes involved in a confrontation with the pedestrian, eventually using the bag as an improvised weapon.
+
+Although the moment is deliberately ridiculous, it provides another small look at the interactions taking place within GTA VI's open world.
+
+The footage also highlights the detail of the beach environment, including pedestrians, the surrounding scenery and character animations.
+
+WHY IS THE FOOTAGE GENUINE?
+
+One of the most important details is found in the episode's closing credits.
+
+Rockstar Games is acknowledged for providing the Grand Theft Auto VI footage, supporting the authenticity of the gameplay shown.
+
+This makes the appearance particularly interesting because the footage was included within a television episode rather than released through Rockstar's usual promotional channels.
+
+AN UNEXPECTED GTA VI PROMOTION
+
+South Park has referenced GTA VI throughout its recent season, making the appearance a particularly unusual addition to the game's promotional campaign.
+
+The show's satirical humour also makes it a fitting place for such an unconventional gameplay reveal.
+
+Rather than showcasing another major mission or cinematic sequence, the footage focuses on a small and humorous interaction within the game world.
+
+WHAT DOES THIS REVEAL ABOUT GAMEPLAY?
+
+The clip offers another example of the environmental detail and interactions Rockstar is showcasing in GTA VI.
+
+However, it is important not to draw conclusions about the entire gameplay system from one short sequence.
+
+The footage demonstrates a specific interaction involving Jason and a pedestrian, but Rockstar has not provided further details about how frequently similar interactions will occur or how broadly the mechanic can be used.
+
+GTA VI'S RELEASE DATE
+
+Grand Theft Auto VI is currently scheduled to launch worldwide on 19 November 2026.
+
+The game is confirmed for PlayStation 5 and Xbox Series X|S.
+
+With the release approaching, unexpected appearances such as this South Park sequence are giving players additional glimpses of the game beyond Rockstar's traditional trailers.
+
+GTA VAULT VERDICT
+
+It might not be the gameplay reveal anyone expected, but South Park has delivered one of the most unusual GTA VI moments of the year.
+
+The short sequence offers another look at Rockstar's attention to environmental detail while showing just how much interest surrounds the game ahead of its November release.
+
+GTA Vault will continue covering confirmed GTA VI announcements, gameplay reveals and developments as they emerge.
+
+SOURCES
+
+Video Games Chronicle:
+https://www.videogameschronicle.com/news/the-latest-episode-of-south-park-features-exclusive-gta-6-footage-where-a-man-is-hit-in-the-head-with-dog-poo/
+
+The Independent:
+https://www.independent.co.uk/arts-entertainment/tv/news/gta-vi-south-park-gameplay-footage-b3076360.html
+
+GTA Vault is an independent fan website and is not affiliated with Rockstar Games or Take-Two Interactive.`,
+
+  image: "/news/gta-6-south-park.webp",
+youtubeId: "QH-XIqBDbwo",
+  category: "Gameplay",
+
+  readingTime: "3",
+
+  sections: 7,
+
+  sources: 2,
+},
+
+
 {
   slug: "gta-6-launch-trailer",
 
@@ -1352,4 +1530,61 @@ Grand Theft Auto VI and Grand Theft Auto VI: The Album are both scheduled for 19
 
     sources: 3,
   },
+
+  {
+    slug: "gta-6-preload-date-storage",
+    title: "GTA VI Pre-Load Date Confirmed – 212GB Storage Requirement Revealed",
+    date: "4 November 2026",
+    updated: "4 November 2026",
+    excerpt: "Rockstar has confirmed when GTA VI pre-loading begins, how much storage players will need and when physical code-in-box editions become available.",
+    image: "/news/gta-6-preload.jpg",
+    category: "Release",
+    readingTime: "3",
+    sections: 5,
+    sources: 3,
+    content: `
+ROCKSTAR CONFIRMS PRE-LOAD DETAILS
+
+With the release of Grand Theft Auto VI approaching, Rockstar Games has confirmed when players will be able to pre-load the game ahead of launch. The announcement also reveals that the download will require up to 212GB of available storage, making it important for players to prepare their consoles in advance.
+
+PRE-LOAD BEGINS ON 10 NOVEMBER
+
+Digital pre-loading begins on Tuesday, 10 November 2026. PlayStation 5 players will be able to start downloading at midnight local time in their respective time zones.
+
+For Xbox Series X|S, pre-loading begins globally at 12am GMT on the same date. This means UK Xbox players can begin downloading from midnight on 10 November.
+
+Pre-loading allows players to download the game before its official release, reducing the amount of time spent waiting for a download on launch day. However, the game will not become playable until its scheduled release.
+
+212GB OF STORAGE REQUIRED
+
+One of the biggest details from the announcement is the storage requirement. Rockstar states that the pre-load will require up to 212GB of available space, depending on the device.
+
+This is a substantial amount of storage, so players with limited console space may need to remove unused games or other files before downloading GTA VI.
+
+The figure is described as the space required for the pre-load. It should not automatically be treated as a confirmed final installed size, as Rockstar has not provided that distinction.
+
+PHYSICAL VERSIONS WILL USE DOWNLOAD CODES
+
+Rockstar has also confirmed that physical code-in-box versions should become available from retailers beginning on 12 November.
+
+These versions will contain a digital download code rather than a game disc. Players will therefore still need to download GTA VI onto their console, with the code allowing them to access the pre-load.
+
+The physical release will not provide an alternative disc-based installation.
+
+WHAT PLAYERS SHOULD DO BEFORE LAUNCH
+
+Players planning to download GTA VI should check their available storage before 10 November. It is also worth checking that automatic downloads are enabled and that the console has a reliable internet connection.
+
+On PlayStation 5, players should ensure their pre-order is set up for automatic downloading and that the console can connect to the internet in Rest Mode.
+
+Xbox players should check that automatic updates are enabled and that their console is powered on or in Sleep mode when the pre-load begins.
+
+THE COUNTDOWN TO 19 NOVEMBER
+
+Grand Theft Auto VI is scheduled to launch on 19 November 2026 for PlayStation 5 and Xbox Series X|S.
+
+With pre-loading starting nine days beforehand, players now have a confirmed date to prepare for. The 212GB requirement also gives console owners an important reminder to check their storage before launch week.
+    `,
+  },
+  
 ];

@@ -6,7 +6,7 @@ import { useCallback, useEffect, useState } from "react";
 type GalleryImage = {
   src: string;
   name: string;
-  category: "People" | "Places";
+  category: "People" | "Places" | "Launch Gallery";
 };
 
 const peopleCollections = [
@@ -30,6 +30,21 @@ const placeCollections = [
   ["Vice_City", 12],
 ] as const;
 
+const launchGalleryImages: GalleryImage[] = Array.from(
+  { length: 39 },
+  (_, index) => {
+    const number = String(index + 1).padStart(2, "0");
+    const extension =
+      [1, 33, 37].includes(index + 1) ? "jpg" : "jpg.avif";
+
+    return {
+      src: `/media/gallery/launch-gallery/LG${number}.${extension}`,
+      name: `Launch Gallery ${number}`,
+      category: "Launch Gallery" as const,
+    };
+  }
+);
+
 const galleryImages: GalleryImage[] = [
   ...peopleCollections.flatMap(([folder, count]) =>
     Array.from({ length: count }, (_, index) => ({
@@ -38,13 +53,14 @@ const galleryImages: GalleryImage[] = [
       category: "People" as const,
     }))
   ),
-  ...placeCollections.flatMap(([folder, count]) =>
+   ...placeCollections.flatMap(([folder, count]) =>
     Array.from({ length: count }, (_, index) => ({
       src: `/media/gallery/places/${folder}_${String(index + 1).padStart(2, "0")}.jpg`,
       name: folder.replaceAll("_", " "),
       category: "Places" as const,
     }))
   ),
+  ...launchGalleryImages,
 ];
 
 function shuffleImages<T>(images: T[]): T[] {
@@ -68,8 +84,8 @@ useEffect(() => {
   setMixedImages(shuffleImages(galleryImages));
 }, []);
   const [activeCategory, setActiveCategory] = useState<
-    "All" | "People" | "Places"
-  >("All");
+  "All" | "People" | "Places" | "Launch Gallery"
+>("All");
 
   const filteredImages = mixedImages.filter(
     (image) => activeCategory === "All" || image.category === activeCategory
@@ -439,7 +455,7 @@ useEffect(() => {
 
         {/* CATEGORY FILTERS */}
         <div className="mb-10 flex flex-wrap justify-center gap-3">
-          {(["All", "People", "Places"] as const).map((category) => (
+          {(["All", "People", "Places", "Launch Gallery"] as const).map((category) => (
             <button
               key={category}
               type="button"

@@ -76,7 +76,29 @@ function headingId(heading: string) {
     .trim()
     .replace(/\s+/g, "-");
 }
+function renderParagraph(paragraph: string) {
+  const parts = paragraph.split(/(<a href="[^"]+">.*?<\/a>)/g);
 
+  return parts.map((part, index) => {
+    const match = part.match(/^<a href="([^"]+)">(.+)<\/a>$/);
+
+    if (!match) {
+      return part;
+    }
+
+    const [, href, label] = match;
+
+    return (
+      <Link
+        key={index}
+        href={href}
+        className="font-semibold text-pink-400 underline decoration-pink-500/40 underline-offset-4 transition hover:text-pink-300"
+      >
+        {label}
+      </Link>
+    );
+  });
+}
 export default async function ArticlePage({
   params,
 }: ArticlePageProps) {
@@ -246,12 +268,12 @@ const relatedArticles = news
                 );
               }
 
-              return (
+                          return (
                 <p
                   key={index}
                   className="text-[17px] leading-8 text-zinc-300 md:text-lg md:leading-9"
                 >
-                  {paragraph}
+                  {renderParagraph(paragraph)}
                 </p>
               );
             })}

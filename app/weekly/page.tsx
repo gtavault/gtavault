@@ -6,208 +6,203 @@ import {
   vaultRating,
 } from "@/lib/vault-score";
 
+
 const priorities = [
   {
     number: "01",
-    label: "TRIPLE REWARDS",
-    title: "Grind Halloween activities",
+    label: "GUARANTEED TARGET",
+    title: "Get the Panther Statue",
     description:
-      "Slasher modes, Halloween Survivals, Hotring Races, Random Transform Races and the Community Race Series offer 3× GTA$ and RP. Eligible GTA+ members receive 6× rewards on Halloween Survivals.",
-    reward: "VIEW MULTIPLIERS",
+      "Your first Cayo Perico Heist run during this event guarantees the Panther Statue as the primary target. Make this a priority before the weekly reset.",
+    reward: "CAYO PERICO HEIST",
     href: "#bonuses",
   },
   {
     number: "02",
-    label: "WEEKLY CHALLENGE",
-    title: "Complete a Survival",
+    label: "TRIPLE REWARDS",
+    title: "Play Mansion Raid",
     description:
-      "Complete all waves of a Survival to earn GTA$150,000 and the Gray Space Interloper Outfit.",
-    reward: "CHECK CHALLENGE",
-    href: "#full-update",
+      "Mansion Raid pays 3× GTA$ and RP throughout the event week, making it the strongest repeatable boosted activity.",
+    reward: "3× GTA$ + RP",
+    href: "#bonuses",
   },
   {
     number: "03",
-    label: "LIMITED-TIME CASH",
-    title: "Complete all three Short Trips",
+    label: "FREE LOGIN REWARD",
+    title: "Claim The Great Circle Back",
     description:
-      "Complete all three Short Trips by 28 October to earn an additional GTA$500,000, paid within 72 hours of completion.",
-    reward: "GTA$500,000 BONUS",
-    href: "#bonuses",
+      "Log in to GTA Online before the event ends on 11 November to receive The Great Circle Back Mansion Painting Decoration.",
+    reward: "FREE MANSION DECORATION",
+    href: "#full-update",
   },
 ];
 
 const bonuses = [
   {
     label: "3× GTA$ + RP",
-    title: "Halloween activities",
+    title: "Mansion Raid",
     description:
-      "Slasher modes, including Ramius – Slasher, and the featured Halloween Survivals offer triple rewards. Eligible GTA+ members can receive 6× rewards on Halloween Survivals.",
-  },
-  {
-    label: "3× GTA$ + RP",
-    title: "Race series",
-    description:
-      "Hotring Races, Random Transform Races and the Community Race Series offer triple GTA$ and RP.",
-  },
-  {
-    label: "3× GTA$ + RP",
-    title: "Community Missions",
-    description:
-      "Featured Community Missions offer triple rewards. Check the in-game series for the available missions and their requirements.",
+      "Mansion Raid offers triple GTA$ and RP throughout the Heist Event Week. This is the main repeatable boosted activity.",
   },
   {
     label: "2× GTA$ + RP",
-    title: "Bail Office and Dispatch Work",
+    title: "Community Series",
     description:
-      "Standard and Most Wanted Bail Office targets and Dispatch Work offer double GTA$ and RP.",
+      "Earn double GTA$ and RP by participating in Community Series Jobs.",
   },
   {
-    label: "2× GTA$ + RP",
-    title: "UFO Business Battles and Jack O’ Lanterns",
+    label: "2× FIRST-TIME BONUS",
+    title: "Original Heists",
     description:
-      "UFO-themed Business Battles and Jack O’ Lanterns offer double GTA$ and RP. Eligible GTA+ members receive enhanced rewards on listed Halloween activities.",
+      "The Fleeca Job, Prison Break, Humane Labs Raid, Series A Funding and Pacific Standard Job receive doubled first-time completion bonuses. This is not a permanent double payout on every replay.",
   },
   {
-    label: "2× GTA$",
-    title: "Ghosts Exposed",
+    label: "2× FIRST-TIME BONUS",
+    title: "Doomsday Heist",
     description:
-      "Photograph paranormal apparitions for double GTA$. Eligible GTA+ members can receive 4× GTA$ on this activity.",
+      "The Doomsday Heist receives doubled first-time completion bonuses across its Acts, including the associated preparations and finales.",
   },
   {
-    label: "2× GTA$ + RP",
-    title: "The Fine Art File",
+    label: "2× FIRST-TIME BONUS",
+    title: "Diamond Casino Heist",
     description:
-      "The Fine Art File FIB Priority File offers double GTA$ and RP this week.",
+      "Earn a doubled first-time completion bonus when completing the Diamond Casino Heist during the event.",
   },
   {
-    label: "GTA$500,000",
-    title: "Short Trips bonus",
+    label: "2× FIRST-TIME BONUS",
+    title: "KnoWay Out",
     description:
-      "Complete all three Short Trips before 28 October to qualify for an additional GTA$500,000, paid within 72 hours of completion.",
+      "The first completion of KnoWay Out during the event pays double GTA$.",
   },
 ];
 
 const discounts = [
   {
     label: "40% OFF",
-    title: "Agency properties",
+    title: "High-End Apartments",
     description:
-      "Agency properties, upgrades and modifications are discounted by 40%. Consider this offer if you want to access Agency contracts and related activities.",
+      "Selected High-End Apartments, including Eclipse Towers suites, are discounted by 40%. Useful for players who still need an apartment to host the Original Heists.",
   },
   {
     label: "40% OFF",
-    title: "Selected Halloween vehicles",
+    title: "Casino Penthouse",
     description:
-      "Discounted seasonal vehicles include the Albany Brigham, Albany Fränken Stange, Albany Lurcher, Declasse Tornado Rat Rod and LCC Sanctus.",
+      "The Diamond Casino Penthouse and its eligible upgrades and modifications are discounted by 40%.",
+  },
+  {
+    label: "40% OFF",
+    title: "Facilities",
+    description:
+      "Facility properties and eligible upgrades and modifications are discounted by 40%, making this a good opportunity for players planning to complete the Doomsday Heist.",
   },
   {
     label: "30% OFF",
-    title: "Selected additional vehicles",
+    title: "Selected vehicles",
     description:
-      "Selected vehicles include the Annis Euros X32, Bravado Dorado, Canis Freecrawler, Dinka Veto Classic, HVY Dump, Karin Boor, Ocelot Swinger, Pfister Astron, Vapid Desert Raid and Vulcar Nebula Turbo.",
+      "Discounted vehicles include the Benefactor Vorschlaghammer, Cheval Taipan, Dinka Blista Kanjo, Grotti Cheetah, HVY Insurgent, Invetero Coquette D5, Maibatsu Penumbra FF, Pegassi Reaper, Western Company Besra and Western Rampant Rocket.",
   },
   {
-    label: "GUN VAN OFFERS",
-    title: "Weapons and equipment",
+    label: "25% OFF",
+    title: "Grotti Veleno GT",
     description:
-      "The Service Carbine is discounted by 30%, and the Shocker is available free. Eligible GTA+ members receive 50% off the Up-n-Atomizer, Unholy Hellbringer and Widowmaker.",
+      "The Grotti Veleno GT receives a 25% discount at Legendary Motorsport. This is its first advertised sale.",
   },
 ];
 
 const showrooms = [
   {
     label: "CASINO PODIUM",
-    title: "Pfister Comet S2",
+    title: "Överflöd Entity XXR",
     description:
-      "The Comet S2 is this week's Diamond Casino podium vehicle. Spin the Lucky Wheel for a chance to win it.",
+      "The Entity XXR is this week's Diamond Casino podium vehicle. Spin the Lucky Wheel for a chance to win it.",
   },
   {
     label: "LS CAR MEET PRIZE RIDE",
-    title: "Grotti Itali Classic",
+    title: "Annis Hellion",
     description:
-      "Place in the top two in the LS Car Meet Series for two consecutive days to unlock this week's Prize Ride.",
-  },
-  {
-    label: "LUXURY AUTOS",
-    title: "Rapid GT X and Sentinel XS4",
-    description:
-      "The Dewbauchee Rapid GT X and Übermacht Sentinel XS4 are featured in the Luxury Autos showroom.",
+      "Finish in the top five of an LS Car Meet Series race for three consecutive days to unlock this week's Prize Ride.",
   },
   {
     label: "PREMIUM DELUXE MOTORSPORT",
-    title: "Halloween vehicle selection",
+    title: "Five featured vehicles",
     description:
-      "Featured vehicles include the Albany Brigham, Albany Fränken Stange, Albany Lurcher, Declasse Tornado Rat Rod and LCC Sanctus.",
+      "The Blista Kanjo, Cheetah, Coquette D5, Penumbra FF and Vorschlaghammer are featured this week.",
+  },
+  {
+    label: "LUXURY AUTOS",
+    title: "Vorschlaghammer and Veleno GT",
+    description:
+      "The Benefactor Vorschlaghammer and Grotti Veleno GT are featured in the Luxury Autos showroom.",
   },
   {
     label: "SALVAGE YARD",
     title: "Three weekly robberies",
     description:
-      "The Duggan Robbery features the Ocelot Virtue, the Cargo Ship Robbery features the Albany Fränken Stange, and the McTony Robbery features the Vapid Caracara 4x4.",
+      "The Podium Robbery features the Annis Hellion, the Cargo Ship Robbery features the Truffade Z-Type, and the McTony Robbery features the Lampadati Cinquemila.",
   },
   {
     label: "TEST RIDES",
     title: "Weekly test vehicles",
     description:
-      "Test Track vehicles include the Declasse Vamos, Dewbauchee Seven-70 and Ocelot Locust. The HSW Premium Test Ride is the Maibatsu MonstroCiti on supported versions.",
+      "The regular Test Ride vehicles are the Vapid GT750, Cheval Taipan and HVY Insurgent. The Premium Test Ride is the Pegassi Reaper, while the HSW Premium Test Ride is the Brioso R/A.",
   },
 ];
 
 const otherFeatures = [
   {
-    title: "Weekly Challenge: 22–28 October",
+    title: "Weekly Challenge",
     description:
-      "Complete all waves of a Survival to receive GTA$150,000 and the Gray Space Interloper Outfit. This is the fourth weekly challenge in the Halloween challenge series.",
+      "Win any Adversary Mode to receive GTA$100,000.",
   },
   {
-    title: "Halloween challenge series",
+    title: "Free Mansion Decoration",
     description:
-      "The October challenge series continues through 4 November. Complete all five weekly challenges to qualify for an additional GTA$2,000,000, paid within 72 hours. Check the in-game challenge tracker for your progress.",
+      "Log in to GTA Online between 5 and 11 November to receive The Great Circle Back Mansion Painting Decoration.",
   },
   {
-    title: "Free login reward",
+    title: "Cayo Perico Heist",
     description:
-      "Play GTA Online through 28 October to receive the White & Red Tech Demon Mask. Make sure you log in during the event window.",
-  },
-  {
-    title: "Short Trips bonus",
-    description:
-      "Complete all three Short Trips before 28 October to qualify for GTA$500,000. The bonus is paid within 72 hours of completion.",
+      "Your first approach during the event guarantees the Panther Statue as the primary target.",
   },
   {
     title: "Kortz Center Heist",
     description:
-      "This week's reported primary targets are Stacks Study V, Trust and Brother Brother.",
+      "The Outcome of Endeavour is guaranteed as the primary target on your first run during the event. Other possible targets include To Beat About the Bush, Hare Oneself Think and True Love.",
   },
   {
     title: "Salvage Yard Robberies",
     description:
-      "The weekly targets are the Ocelot Virtue in the Duggan Robbery, Albany Fränken Stange in the Cargo Ship Robbery, and Vapid Caracara 4x4 in the McTony Robbery.",
+      "The Podium Robbery features the Annis Hellion, the Cargo Ship Robbery features the Truffade Z-Type, and the McTony Robbery features the Lampadati Cinquemila.",
   },
   {
     title: "Premium Race and Time Trials",
     description:
-      "The Premium Race is Route 68. The standard Time Trial is Casino, and the HSW Time Trial is North Chumash to Palomino Highlands. Check the in-game markers for entry requirements.",
+      "The Premium Race is At the Races. The standard Time Trial is LSIA, and the HSW Time Trial runs from Del Perro Beach to Murietta Heights.",
   },
   {
-    title: "Gun Van",
+    title: "Gun Van Offers",
     description:
-      "The Shocker is free and the Service Carbine is discounted by 30%. Eligible GTA+ members can get 50% off the Up-n-Atomizer, Unholy Hellbringer and Widowmaker.",
+      "The Baseball Bat and Knife are free. The Precision Rifle is discounted by 50%. Eligible GTA+ members receive 40% off the Compact EMP Launcher and 80% off Armor.",
   },
   {
-    title: "Halloween rewards",
+    title: "First-Time Heist Bonuses",
     description:
-      "Halloween Survivals offer 3× GTA$ and RP, with 6× rewards for eligible GTA+ members. Jack O’ Lanterns offer 2× GTA$ and RP, while Ghosts Exposed offers 2× GTA$.",
+      "The Original Heists, Doomsday Heist, Diamond Casino Heist and KnoWay Out offer doubled first-time completion bonuses. These bonuses are not repeated on every subsequent completion.",
   },
   {
-    title: "GTA+ bonuses",
+    title: "Kortz Center Heist Event",
     description:
-      "Eligible GTA+ members can receive 6× rewards on featured Halloween Survivals and enhanced rewards on Jack O’ Lanterns and Ghosts Exposed. Check the current GTA+ benefits for eligibility.",
+      "The event celebrates the Kortz Center Heist with a guaranteed Outcome of Endeavour painting on the first run. The painting was previously associated with the Fine Art Collector programme.",
   },
   {
-    title: "Weekly reset",
+    title: "GTA+ Benefits",
     description:
-      "This rotation runs from 22 to 28 October 2026. Weekly bonuses, discounts, vehicles and challenges may change at the next reset. Confirm availability in GTA Online before making purchases.",
+      "GTA+ members can claim the Grotti Itali RSX for free through 9 December. Other recurring membership benefits are separate from the general weekly event offers.",
+  },
+  {
+    title: "Weekly Reset",
+    description:
+      "This rotation runs from 5 to 11 November 2026. The next weekly reset is expected on 12 November. Bonuses, discounts, vehicles and challenges may change at that time.",
   },
 ];
 
@@ -264,7 +259,7 @@ export default function WeeklyPage() {
           {/* WEEKLY VERDICT */}
           <section id="verdict" className="scroll-mt-8 pb-9">
             <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-pink-400">
-              01 / Weekly verdict · 22–28 October 2026
+              01 / Weekly verdict · 5–11 November 2026
             </p>
             <div className="mt-4 flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
               <div className="min-w-0 flex-1">
@@ -272,9 +267,7 @@ export default function WeeklyPage() {
                   Is this week worth playing?
                 </h2>
                 <p className="mt-3 max-w-2xl text-sm leading-6 text-white/55">
-                  Halloween continues with triple-reward activities, boosted
-                  races, discounted Agency properties, seasonal rewards and
-                  a GTA$500,000 Short Trips bonus.
+                  A major Heist Event brings doubled first-time completion bonuses, a guaranteed Panther Statue, triple rewards on Mansion Raid and 40% off key heist properties.
                 </p>
               </div>
               <div className="flex shrink-0 items-center gap-4 md:ml-8 md:mt-1">
@@ -556,7 +549,7 @@ export default function WeeklyPage() {
 
           <footer className="mt-12 border-t border-white/10 pt-5 text-xs leading-5 text-white/35">
             <p>
-              Weekly coverage: 22–28 October 2026. Event rotations and offers
+              Weekly coverage: 5–11 November 2026. Event rotations and offers
               can change at the weekly reset. Verify final availability and
               prices in GTA Online.
             </p>
