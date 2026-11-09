@@ -236,7 +236,7 @@ const relatedArticles = news
       </a>
     ) : (
       <img
-        src={post.image}
+        src={post.detailImage ?? post.image}
         alt={post.title}
         className="aspect-[16/8] w-full object-cover"
       />

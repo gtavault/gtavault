@@ -8,6 +8,7 @@ export interface NewsArticle {
   image: string;
   category: string;
   featured?: boolean;
+  detailImage?: string;
 
   readingTime?: string;
   sections?: number;
@@ -16,6 +17,249 @@ export interface NewsArticle {
 }
 
 export const news: NewsArticle[] = [
+
+
+{
+  slug: "gta-6-selfridges-popup",
+  title: "GTA VI Takes Over Selfridges With 60+ Exclusive Merchandise Items",
+  date: "9 November 2026",
+  updated: "9 November 2026",
+  excerpt: "Selfridges launches a major GTA VI pop-up experience, featuring more than 60 merchandise items, exclusive clothing collaborations and a £2,500 varsity jacket.",
+  image: "/news/gta-6-selfridges-popup.jpeg",
+  category: "News",
+  readingTime: "4",
+sections: 6,
+sources: 2,
+detailImage: "/news/gta-6-selfridges-detail.jpeg",
+content: `
+GTA VI TAKES OVER SELFRIDGES
+
+Grand Theft Auto VI has taken over one of London's most recognisable department stores, with Selfridges launching a dedicated GTA VI merchandise experience ahead of the game's worldwide release.
+
+The takeover opened on 9 November 2026 at the retailer's flagship London store, transforming parts of the building with Vice City-inspired displays and Grand Theft Auto branding.
+
+The launch forms part of Rockstar Games' wider promotional campaign, bringing elements of the fictional world of Leonida into real-world locations.
+
+MORE THAN 60 MERCHANDISE ITEMS
+
+The collection features more than 60 GTA VI-themed products, covering clothing, accessories, sports merchandise and collectibles.
+
+Some of the most notable items include:
+
+Goodtime State Varsity Jacket — £2,500.
+
+Black Varsity Jacket — £1,750.
+
+Vice City Manatees Football Helmet — £450.
+
+Vice City Manatees Starter Jacket — £280.
+
+Burger Shot Apron — £250.
+
+Vice City Narcos Mini Basketball Set — £150.
+
+There are also T-shirts, caps, socks, keychains, bags, mugs and other smaller accessories.
+
+More than half of the collection is reported to be exclusive to Selfridges, making it particularly interesting for collectors looking for merchandise that may not be available through other retailers.
+
+BRINGING VICE CITY INTO THE REAL WORLD
+
+The store's exterior and displays have been transformed using GTA VI-inspired colours and imagery.
+
+One of the standout features is a themed window display featuring a sports car inspired by the vehicles of Vice City.
+
+The collection also brings fictional brands and organisations from the game into real-world merchandise, including Burger Shot, Vice City Manatees and Vice City Narcos.
+
+These details help bring the fictional world of GTA VI beyond the game itself, giving fans the opportunity to own merchandise connected to its locations and culture.
+
+THE ONLINE STORE AND INTERNATIONAL SHOPPING
+
+The merchandise collection also launched online through Selfridges, allowing fans who cannot visit the physical store to browse the range.
+
+The online launch attracted significant attention, with reported queues exceeding 100,000 people at the time of publication. Some products were also reportedly already unavailable shortly after launch.
+
+Selfridges lists international delivery options, although availability and delivery costs depend on the destination.
+
+This means the collection is not limited to visitors in London, giving international GTA fans an opportunity to purchase selected items online.
+
+A £2,500 GTA VI JACKET
+
+One of the biggest talking points from the launch is the Goodtime State Varsity Jacket, priced at £2,500.
+
+The jacket features Grand Theft Auto VI branding and detailed Vice City-inspired designs, making it one of the most expensive pieces in the collection.
+
+While smaller accessories are available at much lower prices, the premium jackets demonstrate the scale of the merchandise campaign surrounding GTA VI.
+
+ANOTHER MAJOR GTA VI LAUNCH PROMOTION
+
+With the game scheduled to release on 19 November 2026, the Selfridges takeover is another example of how Rockstar is building anticipation beyond traditional video game advertising.
+
+From real-world promotional displays to exclusive merchandise collections, the marketing campaign is bringing the world of GTA VI into different areas of popular culture.
+
+GTA Vault will continue covering major GTA VI announcements, collaborations and launch developments as they happen.
+`,
+},
+
+
+{
+  slug: "gta-6-the-festival",
+  title: "Rockstar Announces GTA VI: The Festival in Miami – Full Lineup and Ticket Details",
+  date: "9 November 2026",
+  updated: "9 November 2026",
+  excerpt: "Rockstar Games and PlayStation announce GTA VI: The Festival, a major live music event in Miami featuring artists from the game's soundtrack.",
+  image: "/news/gta-6-the-festival.jpeg",
+  category: "News",
+  readingTime: "4",
+  sections: 6,
+  sources: 2,
+  content: `
+GRAND THEFT AUTO VI: THE FESTIVAL ANNOUNCED
+
+Rockstar Games has officially announced Grand Theft Auto VI: The Festival, a special live music event taking place on 21 November 2026 at Mana Wynwood in Miami, Florida.
+
+Presented in partnership with PlayStation, the festival will celebrate the launch of GTA VI with a major lineup of artists connected to the game's music and official soundtrack.
+
+A STAR-STUDDED LINEUP
+
+The announcement features a wide range of performers from across hip-hop, electronic and dance music.
+
+The confirmed lineup includes:
+
+Cactus Jack presents Travis Scott, Don Toliver, Kodak Black and Sofaygo.
+
+Cardi B.
+
+Ca7riel & Paco Amoroso.
+
+Justice (DJ set).
+
+Metro Boomin.
+
+Nick León B2B DJ Python.
+
+Prospa B2B Skream.
+
+Rauw & Friends.
+
+Suero.
+
+Tainy.
+
+The Dare B2B Fcukers (DJ set).
+
+TWO STAGES OF NONSTOP MUSIC
+
+Rockstar has confirmed that the event will feature two stages of continuous music, bringing together artists associated with the sound and atmosphere of Vice City and Leonida.
+
+The festival is being produced by the creators of III Points, a Miami-based music festival, giving the event a connection to the city's established electronic and live music scene.
+
+WHEN AND WHERE IS THE FESTIVAL?
+
+Grand Theft Auto VI: The Festival will take place on Saturday, 21 November 2026, at Mana Wynwood in Miami.
+
+The venue is located in the Wynwood district, an area known for its art, nightlife and music culture.
+
+The event will take place just two days after the scheduled release of GTA VI on 19 November.
+
+HOW TO GET TICKETS
+
+Tickets are being distributed through a pre-sale lottery operated by Laylo, with ticket sales handled through DICE.
+
+Players interested in attending must enter the lottery through the official festival website and have an active DICE account with up-to-date information.
+
+The confirmed ticket schedule is:
+
+Lottery closes: Tuesday, 10 November at 4:00 PM Eastern Time.
+
+Winning entries drawn: Tuesday, 10 November at 7:00 PM Eastern Time.
+
+Tickets go on sale for lottery winners: Wednesday, 11 November at 12:00 PM Eastern Time.
+
+A maximum of two tickets can be purchased per lottery code. Entering the lottery does not guarantee the opportunity to purchase a ticket.
+
+IMPORTANT AGE REQUIREMENT
+
+The festival is restricted to attendees aged 17 and over. Valid identification will be required at entry.
+
+This means the event is not open to all GTA fans, despite the worldwide interest surrounding the game's release.
+
+A MAJOR CELEBRATION OF GTA VI
+
+With a diverse lineup of artists, two stages and a Miami location closely connected to the world of Vice City, Grand Theft Auto VI: The Festival is shaping up to be a major part of the game's launch celebrations.
+
+The event also highlights the importance of music to GTA VI, bringing together artists whose sounds help define the atmosphere of the game's fictional world.
+
+GTA Vault will continue to follow official GTA VI announcements as more information becomes available.
+`,
+},
+
+
+  {
+    slug: "gta-6-preload-begins",
+    title: "GTA VI Pre-Load Begins as First Players Start Downloading the Game",
+    date: "9 November 2026",
+    updated: "9 November 2026",
+    excerpt:
+      "GTA VI pre-loading is beginning around the world, with the first players gaining access to the download ahead of the game's 19 November release.",
+    image: "/news/gta-6-preload-begins.jpeg",
+    category: "Release",
+    readingTime: "4",
+   sections: 6,
+sources: 3,
+detailImage: "/news/gta-6-preload-detail.jpeg",
+content: `
+GTA VI PRE-LOADING BEGINS
+
+The countdown to Grand Theft Auto VI has entered another major stage, with the game's pre-loading process beginning as 10 November arrives in the earliest time zones.
+
+Players in regions where midnight has already passed are beginning to gain access to the download, allowing them to prepare for Rockstar's highly anticipated release.
+
+The pre-load is an important milestone for players who have been waiting years to explore Leonida.
+
+FIRST PLAYERS BEGIN DOWNLOADING
+
+Because pre-loading follows regional schedules, not every player receives access at the same moment.
+
+PlayStation 5 pre-loading begins at midnight local time on 10 November. This means players in earlier time zones can start downloading before the date arrives in the United Kingdom.
+
+Xbox Series X|S follows a different schedule, with its global pre-load beginning at 00:00 GMT on 10 November.
+
+
+THE 212GB STORAGE REQUIREMENT
+
+Rockstar's pre-load information states that GTA VI requires up to 212GB of available storage, depending on the device.
+
+Players should check their available console storage before downloading.
+
+It is also important to remember that the 212GB figure refers to the pre-load requirement and should not automatically be treated as a confirmed final installed size.
+
+WHY PRE-LOADING MATTERS
+
+Pre-loading allows players to download the game before its official release.
+
+This means they should not need to wait for the entire download to finish when GTA VI becomes playable on launch day.
+
+However, downloading the game early does not provide early access. Players will still need to wait until the official release time before they can start playing.
+
+NINE DAYS UNTIL LAUNCH
+
+Grand Theft Auto VI is scheduled to release worldwide on 19 November 2026 for PlayStation 5 and Xbox Series X|S.
+
+With pre-loading now beginning, players are entering the final preparation period before launch.
+
+For those who have been following every announcement, trailer and screenshot, the wait is getting considerably closer to its conclusion.
+
+OFFICIAL INFORMATION
+
+Rockstar's pre-load announcement and support information provide the confirmed download timings and storage requirements:
+
+https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10
+
+https://support.rockstargames.com/articles/7nPqOA2uCbpEQHXx7KVrYd/grand-theft-auto-vi-pre-load-faq
+
+Grand Theft Auto VI launches on 19 November 2026.
+`,
+  },
 
 
   {
