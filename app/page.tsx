@@ -270,43 +270,26 @@ export default function Home() {
           }}
         />
       </div>
-      <div className="mt-6">
+           <div className="mt-6">
         <p
           className="text-[10px] font-black uppercase tracking-[0.4em]"
           style={{ color: vaultScoreColor }}
         >
-          Vault Score
+          GTA VI Vault Score
         </p>
-        <div className="mt-2 flex items-baseline gap-2">
-          <span
-            className="text-8xl font-black leading-none tracking-[-0.09em]"
-            style={{ color: vaultScoreColor }}
-          >
-            {vaultScore}
-          </span>
-          <span
-            className="text-xs font-bold"
-            style={{ color: vaultScoreColor }}
-          >
-            /100
-          </span>
-        </div>
+        <p
+          className="mt-3 text-3xl font-black uppercase tracking-[-0.04em]"
+          style={{ color: vaultScoreColor }}
+        >
+          Coming Soon
+        </p>
       </div>
-      <div className="mt-6 h-[5px] w-full overflow-hidden rounded-full bg-white/10">
-        <div
-          className="h-full rounded-full transition-all duration-500"
-          style={{
-            width: `${vaultScore}%`,
-            backgroundColor: vaultScoreColor,
-          }}
-        />
-      </div>
-      <div className="mt-5 flex items-center justify-between border-t border-white/10 pt-4">
+      <div className="mt-6 flex items-center justify-between border-t border-white/10 pt-4">
         <span
           className="text-[8px] font-black uppercase tracking-[0.25em]"
           style={{ color: vaultScoreColor }}
         >
-          This week
+          GTA VI
         </span>
         <span
           className="text-[8px] font-black uppercase tracking-[0.2em] transition duration-300 group-hover:translate-x-1"
@@ -315,6 +298,7 @@ export default function Home() {
           View report →
         </span>
       </div>
+
     </div>
   </Link>
 </div>
@@ -478,55 +462,32 @@ export default function Home() {
         </p>
       </div>
     </div>
-    <div className="flex flex-1 items-center justify-center gap-5">
-      <span
-        className="text-[8px] font-black uppercase tracking-[0.3em]"
-        style={{ color: vaultScoreColor }}
-      >
-        GTA Online
-      </span>
-      <span
-        className="h-1 w-1 rounded-full"
-        style={{ backgroundColor: vaultScoreColor }}
-      />
-      <span
-        className="text-[9px] font-medium"
-        style={{ color: vaultScoreColor }}
-      >
-        This week's analysis is live
-      </span>
-    </div>
-    <div className="flex items-center gap-7">
-      <div className="flex items-baseline gap-1">
-        <span
-          className="text-3xl font-black leading-none tracking-[-0.06em]"
-          style={{ color: vaultScoreColor }}
-        >
-          {vaultScore}
-        </span>
-        <span
-          className="text-[9px] font-bold"
-          style={{ color: vaultScoreColor }}
-        >
-          /100
-        </span>
-      </div>
-      <div className="h-1.5 w-[90px] overflow-hidden rounded-full bg-white/10">
-        <div
-          className="h-full rounded-full transition-all duration-500"
-          style={{
-            width: `${vaultScore}%`,
-            backgroundColor: vaultScoreColor,
-          }}
-        />
-      </div>
-      <span
-        className="text-[8px] font-black uppercase tracking-[0.25em] transition duration-300 group-hover:translate-x-1"
-        style={{ color: vaultScoreColor }}
-      >
-        View report <span className="ml-1 inline-block">→</span>
-      </span>
-    </div>
+<div className="flex flex-1 items-center justify-center gap-5">
+  <span
+    className="text-[8px] font-black uppercase tracking-[0.3em]"
+    style={{ color: vaultScoreColor }}
+  >
+    GTA VI
+  </span>
+  <span
+    className="h-1 w-1 rounded-full"
+    style={{ backgroundColor: vaultScoreColor }}
+  />
+  <span
+    className="text-[9px] font-medium uppercase tracking-[0.2em]"
+    style={{ color: vaultScoreColor }}
+  >
+    Vault Score Coming Soon
+  </span>
+</div>
+<div className="flex items-center gap-7">
+  <span
+    className="text-[8px] font-black uppercase tracking-[0.25em] transition duration-300 group-hover:translate-x-1"
+    style={{ color: vaultScoreColor }}
+  >
+    View report <span className="ml-1 inline-block">→</span>
+  </span>
+</div>
   </Link>
 </section>
 
@@ -1213,13 +1174,7 @@ export default function Home() {
       />
       <div className="min-w-0">
         <div className="flex items-center gap-2">
-          <span
-            className="h-1.5 w-1.5 shrink-0 animate-pulse rounded-full"
-            style={{
-              backgroundColor: vaultScoreColor,
-              boxShadow: `0 0 10px ${vaultScoreColor}`,
-            }}
-          />
+        
           <p
             className="text-[7px] font-black uppercase tracking-[0.3em]"
             style={{ color: vaultScoreColor }}
@@ -1236,46 +1191,22 @@ export default function Home() {
        
       </div>
     </div>
-    <div className="flex shrink-0 items-center gap-3">
-      <div className="text-right">
-        <p
-          className="text-[7px] font-black uppercase tracking-[0.2em]"
-          style={{ color: vaultScoreColor }}
-        >
-          Score
-        </p>
-        <div className="mt-1 flex items-baseline justify-end gap-1">
-          <span
-            className="text-2xl font-black leading-none tracking-[-0.06em]"
-            style={{ color: vaultScoreColor }}
-          >
-            {vaultScore}
-          </span>
-          <span
-            className="text-[8px] font-bold"
-            style={{ color: vaultScoreColor }}
-          >
-            /100
-          </span>
-        </div>
-      </div>
-      <span
-        className="text-lg transition-transform duration-300 group-hover:translate-x-1"
-        style={{ color: vaultScoreColor }}
-      >
-        →
-      </span>
-    </div>
+   <div className="flex shrink-0 items-center gap-3">
+  <span
+    className="text-xs font-black uppercase tracking-wider"
+    style={{ color: vaultScoreColor }}
+  >
+    Coming Soon
+  </span>
+  <span
+    className="text-lg font-black transition duration-300 group-hover:translate-x-1"
+    style={{ color: vaultScoreColor }}
+  >
+    →
+  </span>
+</div>
   </Link>
-  <div className="relative h-[3px] w-full bg-white/[0.06]">
-    <div
-      className="h-full transition-all duration-500"
-      style={{
-        width: `${vaultScore}%`,
-        backgroundColor: vaultScoreColor,
-      }}
-    />
-  </div>
+ 
 </section>
 
 {/* MOBILE ARCADE */}
