@@ -50,14 +50,14 @@ export default function Header() {
   <SiInstagram size={18} />
 </a>
 
-  <a
-    href="https://discord.gg/v35YqG3fy"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-zinc-400 transition hover:text-indigo-400"
-  >
-    <FaDiscord size={18} />
-  </a>
+ <a
+  href="https://discord.gg/7TQMwVJ4dA"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-zinc-400 transition hover:text-indigo-400"
+>
+  <FaDiscord size={18} />
+</a>
 </div>
 <button
   onClick={() => setMenuOpen(!menuOpen)}
